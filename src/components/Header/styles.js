@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.header`
     grid-area: header;
     height: 55px;
-    width: 100%;
+    
     padding: 10px 30px 10px 30px;
 
     display: flex;
@@ -27,4 +27,10 @@ export const Container = styled.header`
     .menu a {
         padding: 20px;
     }
+
+    > Input {
+        width: 6px;
+    }
+
+ 
 `;

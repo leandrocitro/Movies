@@ -1,17 +1,12 @@
 import { Container } from './styles';
+import { Input } from '../input'
 
 export function Header() {
     return (
         <Container>
             <a href="/">Movies</a>
-
-            <div className='menu'>
-                <a href="/">Home</a>
-                <a href="/Movies">Movies</a>
-                <a href="/Profile">Profile</a>
-            </div>
-
-            <div className='search'>
+            <Input />
+            <div className='Profile'>
             <a href="/Search">Search</a>
             </div>
         </Container>
