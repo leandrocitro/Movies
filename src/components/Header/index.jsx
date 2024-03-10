@@ -5,7 +5,7 @@ export function Header() {
     return (
         <Container>
             <a href="/">Movies</a>
-            <Input />
+            <Input/>
             <div className='Profile'>
             <a href="/Search">Search</a>
             </div>

@@ -28,7 +28,7 @@ export const Container = styled.header`
         padding: 20px;
     }
 
-    > Input {
+    .input {
         width: 6px;
     }
 
